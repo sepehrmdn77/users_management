@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 if [[ $EUID -ne 0 ]]; then
-    echo "🚨This script has to executed as root!🚨"
+    echo "🚨This script has to be executed as root!🚨"
     exit 1
 fi
 while true; do
